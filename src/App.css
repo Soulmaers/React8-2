@@ -1,0 +1,31 @@
+.App {
+
+  display: flex;
+  justify-content: center;
+
+}
+
+progress {
+  align-items: center;
+}
+
+.listModal {
+  list-style-type: none;
+}
+
+.ulList {
+  width: 250px;
+  margin: 0;
+}
+
+.listItem {
+  border: 1px solid gray;
+  padding: 10px 15px;
+  list-style-type: none;
+}
+
+.listItem:hover {
+  background-color: blue;
+  color: #fff;
+  cursor: pointer;
+}
